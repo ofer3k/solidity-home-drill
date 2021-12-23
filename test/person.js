@@ -1,13 +1,13 @@
-const { assert } = require('chai');
-const Person = artifacts.require('./Person.sol');
+const { assert } = require("chai");
+const Person = artifacts.require("./Person.sol");
 
-contract('Person', (accounts) => {
+contract("Person", (accounts) => {
   const [owner] = accounts;
-  describe('Person', () => {
-    it('is doing somthing', async () => {
+  describe("Person", () => {
+    it("should be name === test ", async () => {
       const person = await Person.deployed();
-      const name = await person.name();
-      assert.equal(name, 'test');
+      const name = await person.getName();
+      assert.equal(name, "Gambler");
     });
   });
 });
