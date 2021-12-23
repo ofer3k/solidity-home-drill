@@ -13,7 +13,7 @@
 
 ## solution Idea
 
-- I built a small slot machine.
+- I built a small Lucky game - Which works on buying tickets.
 - The user (or by his new name "Gambler")
   Gets 1000 points by default and can buy lucky cards.
 - I created a function that knows how to set a number between 0 and 1000 at random.
