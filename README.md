@@ -1,5 +1,9 @@
 # Solidity - Home Test - Ofer Klein
 
+## I added a video showing the functionality in a clean environment and using a constructor
+
+- The video can be found [here](https://www.youtube.com/watch?v=iOsqLBwPHfQ)
+
 ## working process:
 
 - Started by reading solidity docs
@@ -53,6 +57,4 @@
     )));
 ```
 
-## I added a video showing the functionality in a clean environment and using a constructor
-
-- The video can be found [here]()
+## Thanks for the exercise, was intriguing
